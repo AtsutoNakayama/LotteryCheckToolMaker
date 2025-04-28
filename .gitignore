@@ -1,0 +1,16 @@
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# PyInstallerビルド生成物
+build/
+dist/
+
+# 環境設定ファイル
+*.log
+*.tmp
+
+# IDE設定ファイル（必要に応じて）
+.vscode/
+.idea/
+.DS_Store
