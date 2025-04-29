@@ -3,6 +3,10 @@
 REM --- 実行開始メッセージ ---
 echo LotteryCheckToolMaker.exe をビルド開始します...
 
+echo ===============================
+python -c "from src.modules.constants import VERSION; print(f'Version: {VERSION}')"
+echo ===============================
+
 REM --- 既存のdistフォルダを削除（クリーンビルド用、あってもなくてもOK） ---
 if exist dist (
     echo dist フォルダを削除します...

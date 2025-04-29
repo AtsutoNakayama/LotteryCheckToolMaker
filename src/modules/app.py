@@ -3,7 +3,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from .setting_window import SettingWindow
-from .constants import GRADE_NAMES
+from .constants import VERSION, GRADE_NAMES
 from .save_tool import save_as_bat_file
 
 class LotteryApp(tk.Frame):
@@ -11,7 +11,7 @@ class LotteryApp(tk.Frame):
 
     def __init__(self, master=None):
         super().__init__(master)
-        self.master.title("当選番号設定アプリ")
+        self.master.title(f"当選番号判定アプリ ver.{VERSION}")
         self.pack(fill="both", expand=True)
         self.grade_frames = []
         self.setting_windows = {}

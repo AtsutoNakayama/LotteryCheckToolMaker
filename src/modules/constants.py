@@ -1,5 +1,8 @@
 # modules/constants.py
 
+# バージョン
+VERSION = 1
+
 # ポイント数や番号桁数制限
 MAX_DIGITS_FULL = 5  # 完全一致 最大5桁
 MAX_DIGITS_LAST2 = 2  # 下二桁一致 最大2桁
